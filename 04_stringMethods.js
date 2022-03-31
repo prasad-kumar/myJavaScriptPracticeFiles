@@ -52,3 +52,22 @@ let myFullName5 = myFullName4.toUpperCase();
 
 console.log(myFullName4);           // "prasad kumar"
 console.log(myFullName5);           // "PRASAD KUMAR"
+
+// -------- more useful string methods -----------
+
+let myFullName6 = "Prasad Kumar";
+
+// startsWith()
+
+console.log(myFullName6.startsWith("P"));           // true
+console.log(myFullName6.startsWith("S"));           // false
+
+// endsWith()
+
+console.log(myFullName6.endsWith("r"));             // true
+console.log(myFullName6.endsWith("R"));             // false
+
+// includes()
+
+console.log(myFullName6.includes("d"));             // true
+console.log(myFullName6.includes("z"));             // false
