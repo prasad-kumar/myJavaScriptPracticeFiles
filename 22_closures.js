@@ -20,12 +20,20 @@ fun();
 fun();
 
 
-const powerOf = (power) => {
-    return (number) => {
-        return number ** power
-    }
-}
+// traditional arrow function
+// const powerOf = (power) => {
+//     return (number) => {
+//         return number ** power
+//     }
+// }
+
+// short syntax
+const powerOf = power => number =>  number ** power
 
 const result = powerOf(2);
 
-console.log(result(2));
+console.log(result(3));
+
+
+
+
